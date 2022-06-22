@@ -1,0 +1,29 @@
+
+* {
+    box-sizing: border-box;
+}
+
+#main-container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: solid black 1px;
+    flex-flow: row wrap;
+  
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    /* border: solid black 1px; */
+}
+
+
+.cellInput {
+    border: solid black;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
