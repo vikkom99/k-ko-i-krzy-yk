@@ -1,32 +1,69 @@
-
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(215, 215, 255);
+    display: flex;
+    justify-content: center;
 }
 
 #main-container {
     display: flex;
     width: 500px;
     height: 500px;
-    border: solid black 1px;
     flex-flow: row wrap;
-  
+    justify-content: center;
+    align-content: center;
 }
 
 .cell {
     width: 150px;
     height: 150px;
-    /* border: solid black 1px; */
 }
-
 
 .cellInput {
-    border: solid black;
+    outline: none;
     width: 150px;
     height: 150px;
-    margin: 10px;
+    border: solid gray 3px;
     text-align: center;
-    font-size: 30px;
+    font-size: 150px;
+    text-decoration: none;
 }
-::-webkit-input-placeholder {
-    color: brown;
+
+#input1 {
+    border-left: none;
+    border-top: none;
+}
+
+#input2 {
+    border-top: none;
+}
+
+#input3 {
+    border-top: none;
+    border-right: none;
+}
+
+#input4 {
+    border-left: none;
+}
+
+#input6 {
+    border-right: none;
+}
+
+#input7 {
+    border-left: none;
+    border-bottom: none;
+}
+
+#input8 {
+    border-bottom: none;
+}
+
+#input9 {
+    border-right: none;
+    border-bottom: none;
 }
