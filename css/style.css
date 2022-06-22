@@ -27,3 +27,6 @@
     text-align: center;
     font-size: 30px;
 }
+::-webkit-input-placeholder {
+    color: brown;
+}
